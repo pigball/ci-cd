@@ -44,6 +44,6 @@ jobs:
         application_name: things1
         environment_name: Things1-env
         version_label: "things-api-${{ steps.format-time.outputs.replaced }}"
-        region: us-east-2
+        region: ap-southeast-1
         deployment_package: deploy.zip
 
